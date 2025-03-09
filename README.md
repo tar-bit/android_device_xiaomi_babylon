@@ -12,7 +12,7 @@
 | Storage                 | 128 GB / 256 GB / 512 GB                                                           |
 | Battery                 | 4800 mAh                                                                   |
 | Dimensions              | 152.8 x 71.5 x 8.0 mm or 8.1 mm                               |
-| Display                 | xx inches, xx cm2 (~xx% screen-to-body ratio)                       |
+| Display                 | 8.03 inches, 206.5 cm2 (~89.4% screen-to-body ratio)                       |
 | Rear Camera             | 50 MP, f/1.8, 23mm (wide), 1/1.49", 1.0µm, PDAF, OIS                            |
 |                         | 10 MP, f/2.0, 75mm (telephoto), 1/3.94", 1.0µm, PDAF, OIS, 3.2x optical zoom                                   |                         | 10 MP, f/2.9, 115mm (telephoto), 1/3.94", 1.0µm, PDAF, OIS, 5x optical zoom
 |                         | 12 MP, f/2.2, 15mm, 120˚ (ultrawide), 1/3.1", 1.12µm                                                   |
