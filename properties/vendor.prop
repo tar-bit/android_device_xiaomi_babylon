@@ -1,0 +1,24 @@
+# Fingerprint
+# persist.vendor.fingerprint.sensor_location=540|2150|105
+
+persist.vendor.fingerprint.type=side
+persist.vendor.fingerprint.sensor_location=1914|870|200|local:4630947024259405955,1080|1025|200|local:4630947024259405956
+
+# Sensors
+#ro.vendor.sensors.xiaomi.double_tap=true
+#ro.vendor.sensors.xiaomi.single_tap=true
+#ro.vendor.sensors.xiaomi.udfps=true
+
+
+ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
+ro.surface_flinger.has_HDR_display=true
+ro.surface_flinger.has_wide_color_display=true
+ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+ro.surface_flinger.max_virtual_display_dimension=4096
+ro.surface_flinger.protected_contents=true
+ro.surface_flinger.set_touch_timer_ms=200
+ro.surface_flinger.supports_background_blur=1
+ro.surface_flinger.use_color_management=true
+ro.surface_flinger.use_content_detection_for_refresh_rate=true
+ro.surface_flinger.wcg_composition_dataspace=143261696
+

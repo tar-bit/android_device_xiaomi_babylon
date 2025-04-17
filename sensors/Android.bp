@@ -1,0 +1,13 @@
+cc_library_static {
+    name: "libsensor-notifier-ext-fold",
+    vendor: true,
+    srcs: [
+        "FoldStatusNotifier.cpp",
+        "SensorNotifierExt.cpp",
+    ],
+    shared_libs: [
+        "libbase",
+        "libutils",
+        "android.frameworks.sensorservice@1.0",
+    ],
+}
