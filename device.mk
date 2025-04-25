@@ -304,7 +304,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/privapp-permissions-com.android.foldbridge.xml:system/etc/permissions/privapp-permissions-com.android.foldbridge.xml
 
-
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/fold/odm/device_state_configuration.xml:odm/etc/device_state_configuration.xml
 
 # PowerShare
 #PRODUCT_PACKAGES += \

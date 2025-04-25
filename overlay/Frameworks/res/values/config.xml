@@ -4,6 +4,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <bool name="config_enableDeviceStateTracking">true</bool>
     <!-- The display cutout configs for secondary built-in display. -->
     <string-array name="config_displayCutoutPathArray">
         <item>M 0,0 H -35 V 86 H 35 V 0 H 0 Z</item>

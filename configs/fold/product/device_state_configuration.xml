@@ -1,0 +1,73 @@
+<!-- MIUI ADD: Adapt_MIUIAdaptFrame-->
+<device-state-config>
+  <device-state>
+    <identifier>0</identifier>
+    <name>CLOSED</name>
+    <conditions>
+      <sensor>
+        <type>xiaomi.sensor.fold_status</type>
+        <name>fold_status FOLD_STATUS Wakeup</name>
+        <value>
+          <max-inclusive>0</max-inclusive>
+        </value>
+      </sensor>
+    </conditions>
+  </device-state>
+  <device-state>
+    <identifier>1</identifier>
+    <name>TENT</name>
+    <properties>
+      <property>com.android.server.policy.PROPERTY_FEATURE_TENT_MODE</property>
+    </properties>
+    <conditions>
+      <sensor>
+        <type>xiaomi.sensor.fold_status</type>
+        <name>fold_status FOLD_STATUS Wakeup</name>
+        <value>
+          <min>0</min>
+          <max-inclusive>1</max-inclusive>
+        </value>
+      </sensor>
+    </conditions>
+  </device-state>
+  <device-state>
+    <identifier>2</identifier>
+    <name>HALF_OPENED</name>
+    <conditions>
+      <sensor>
+        <type>xiaomi.sensor.fold_status</type>
+        <name>fold_status FOLD_STATUS Wakeup</name>
+        <value>
+          <min>0</min>
+          <max-inclusive>2</max-inclusive>
+        </value>
+      </sensor>
+    </conditions>
+  </device-state>
+  <device-state>
+    <identifier>3</identifier>
+    <name>OPENED</name>
+    <conditions>
+      <sensor>
+        <type>xiaomi.sensor.fold_status</type>
+        <name>fold_status FOLD_STATUS Wakeup</name>
+        <value>
+          <min>2</min>
+        </value>
+      </sensor>
+    </conditions>
+  </device-state>
+  <device-state>
+    <identifier>4</identifier>
+    <name>OPENED_REVERSE</name>
+  </device-state>
+  <device-state>
+    <identifier>5</identifier>
+    <name>OPENED_PRESENTATION</name>
+  </device-state>
+  <device-state>
+    <identifier>6</identifier>
+    <name>OPENED_REVERSE_PRESENTATION</name>
+  </device-state>
+</device-state-config>
+<!-- END Adapt_MIUIAdaptFrame-->
