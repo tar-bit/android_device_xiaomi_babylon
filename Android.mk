@@ -36,9 +36,5 @@ ALL_DEFAULT_INSTALLED_MODULES += \
 	$(BT_FIRMWARE_MOUNT_POINT) \
 	$(DSP_MOUNT_POINT) \
 	$(VM_SYSTEM_MOUNT_POINT)
-	
-#LOCAL_CHECK_ELF_FILES := false
-
-#LOCAL_SHARED_LIBRARIES := libPeripheralStateUtils libagm libagmclient libar-gsl libaudioroute libaudioroute_ext libc++ libcutils libexpat libhardware liblog liblx-osal libtinyalsa libtinycompress libutilscallstack libxlog
 
 endif

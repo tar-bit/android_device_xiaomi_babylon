@@ -1059,7 +1059,8 @@ odm/etc/mdss_dsi_m18_38_0c_0a_sec_dsc_cmd_mi.xml
 # Display (Config)
 product/etc/displayconfig/display_id_4630947024259405955.xml:vendor/etc/displayconfig/display_id_4630947024259405955.xml
 product/etc/displayconfig/display_id_4630947024259405956.xml:vendor/etc/displayconfig/display_id_4630947024259405956.xml
-vendor/etc/displayconfig/display_layout_configuration.xml
+#vendor/etc/displayconfig/display_layout_configuration.xml
+odm/etc/displayconfig/display_layout_configuration.xml
 vendor/etc/display/3dlut-pt-onnx-ptq-htp-fp16.dlc
 vendor/etc/clstc_config_library.xml
 vendor/etc/snapdragon_color_libs_config.xml

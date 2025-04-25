@@ -1,10 +1,8 @@
 <compatibility-matrix version="2.0" type="framework">
     <hal format="hidl" optional="true">
-        <name>android.hardware.graphics.composer3.IComposer</name>
-        <version>1.1</version>
-        <interface>
-            <name>android.hardware.graphics.composer3.IComposer</name>
-            <instance>default</instance>
-            <instance>hw/1</instance>
-        </interface>
-    </hal>
+         <name>android.hardware.graphics.composer3</name>
+         <interface>
+             <name>IComposer</name>
+             <instance>default</instance>
+         </interface>
+     </hal>

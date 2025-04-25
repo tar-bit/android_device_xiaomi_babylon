@@ -1,0 +1,10 @@
+<permissions>
+    <privapp-permissions package="com.android.foldbridge">
+        <permission name="android.permission.DEVICE_STATE_MANAGER" />
+        <permission name="android.permission.HARDWARE_SENSORS" />
+        <permission name="android.permission.FOREGROUND_SERVICE" />
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED" />
+        <permission name="android.permission.WAKE_LOCK" />
+    </privapp-permissions>
+</permissions>
+

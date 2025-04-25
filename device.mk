@@ -99,7 +99,8 @@ PRODUCT_PACKAGES += \
     SystemUIOverlayBabylon \
     SettingsOverlayBabylon \
     sqlite3 \
-#    FrameworksResBabylon \
+    FrameworksResBabylon \
+    FoldBridge
     
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml
@@ -268,8 +269,23 @@ PRODUCT_PACKAGES += \
 #    vendor.xiaomi.hardware.displayfeature@1.0-impl \
 #    vendor.xiaomi.hardware.display.mihwcextension-V1-ndk
 
+PRODUCT_PACKAGES += \
+    android.frameworks.schedulerservice@1.0 \
+    android.frameworks.sensorservice@1.0 \
+    android.frameworks.sensorservice-V1-ndk \
+    android.hardware.common.fmq-V1-ndk \
+    android.hardware.common-V2-ndk \
+    android.hardware.common-V2-ndk_platform \
+    
 
-
+    
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
+    $(DEVICE_PATH)/configs/vintf/device_framework_matrix.xml \
+    hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml \
+    vendor/lineage/config/device_framework_matrix.xml
+    
+    
+    
     
 # Dolby
 #PRODUCT_PACKAGES += \
@@ -282,6 +298,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/hals.conf:$(TARGET_COPY_OUT_ODM)/etc/sensors/hals.conf
     
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/display/display_layout_configuration.xml:vendor/etc/displayconfig/display_layout_configuration.xml
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/permissions/privapp-permissions-com.android.foldbridge.xml:system/etc/permissions/privapp-permissions-com.android.foldbridge.xml
+
 
 
 # PowerShare
