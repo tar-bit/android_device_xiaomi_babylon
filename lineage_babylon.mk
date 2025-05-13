@@ -28,9 +28,9 @@ PRODUCT_SYSTEM_NAME := 2308CPXD0C
 PRODUCT_SYSTEM_DEVICE := 2308CPXD0C
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc=$(call normalize-path-list, "babylon_global-user 15 TKQ1.221114.001 OS2.0.101.0.VMVCNXM release-keys")
+    BuildDesc=$(call normalize-path-list, "babylon_global-user 15 TKQ1.221114.001 OS2.0.109.0.VMVCNXM release-keys")
 
-BUILD_FINGERPRINT := Xiaomi/babylon_global/babylon:15/TKQ1.221114.001/OS2.0.101.0.VMVCNXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/babylon_global/babylon:15/TKQ1.221114.001/OS2.0.109.0.VMVCNXM:user/release-keys
 
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi

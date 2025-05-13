@@ -16,7 +16,9 @@ soong_namespace {
     ],
 }
 
-
+soong_config_string_variable {
+    name: "gralloc_handle_has_reserved_size",
+}
 //install_symlink {
 //    name: "firmware_wlanmdsp.otaupdate_symlink",
  //   vendor: true,

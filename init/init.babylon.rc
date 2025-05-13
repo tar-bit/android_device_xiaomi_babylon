@@ -1,3 +1,9 @@
+on early-init
+    exec - root root -- /vendor/bin/sh -c 'for f in /vendor/lib/modules/*/*.ko; do insmod "$$f"; done'
+
+on fs
+    exec - root root -- /vendor/bin/sh -c 'for f in /vendor_dlkm/lib/modules/*/*.ko; do insmod "$$f"; done'
+
 on boot
     chown system system /sys/class/qcom-battery/reverse_chg_mode
     chmod 0644 /sys/class/qcom-battery/reverse_chg_mode
